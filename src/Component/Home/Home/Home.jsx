@@ -1,3 +1,5 @@
+import Contact from "../../Contact/Contact";
+import Cursor from "../../Cursor/Cursor";
 import Hero from "../../Hero/Hero";
 import Navbar from "../../Navbar/Navbar";
 import Parallax from "../../Parallax/Parallax";
@@ -9,6 +11,7 @@ import Test from "./Test";
 const Home = () => {
   return (
     <div>
+      <Cursor></Cursor>
       <section id="Homepage">
         <Navbar></Navbar>
         <Hero></Hero>
@@ -23,10 +26,13 @@ const Home = () => {
         <Parallax type="portfolio" />
       </section>
       <Portfolio></Portfolio>
-      <section id="Contact"> Contact</section>
+      <section id="Contact"> 
+      <Contact></Contact>
+      </section>
       <section id="About"> About</section>
       {/* <Test></Test>
            <Test></Test> */}
+           
     </div>
   );
 };
