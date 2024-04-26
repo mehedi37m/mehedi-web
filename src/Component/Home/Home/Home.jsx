@@ -12,24 +12,24 @@ const Home = () => {
   return (
     <div>
       <Cursor></Cursor>
-      <section id="Homepage">
+      <section id="HomePage">
         <Navbar></Navbar>
         <Hero></Hero>
       </section>
-      <section id="Services">
+      <section >
         <Parallax type="services"></Parallax>
       </section>
-      <section>
+      <section id="Services">
         <Services></Services>
       </section>
-      <section id="Portfolio">
+      <section >
         <Parallax type="portfolio" />
       </section>
-      <Portfolio></Portfolio>
+     <section id="Project"> <Portfolio></Portfolio></section>
       <section id="Contact"> 
       <Contact></Contact>
       </section>
-      <section id="About"> About</section>
+      {/* <section id="About"> About</section> */}
       {/* <Test></Test>
            <Test></Test> */}
            

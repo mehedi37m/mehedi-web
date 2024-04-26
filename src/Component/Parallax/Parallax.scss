@@ -29,6 +29,7 @@
 
         @include mobile{
            background-size: contain;
+           background-repeat: no-repeat;
             }
     }
     .planets{
@@ -39,6 +40,11 @@
         height: 100%;
         position: absolute;
         z-index: 2;
+
+        @include mobile{
+            background-size: contain;
+            background-repeat: no-repeat;
+             }
     }
     .stars{
         background-image: url("/public/stars.png");

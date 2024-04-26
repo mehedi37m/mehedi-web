@@ -74,10 +74,10 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate" >Writer content creator</motion.div>
+      <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate" >Love Programming</motion.div>
 
       <div className="imageContainer">
-        <img src="/public/hero.png" alt="" />
+        <img src="https://i.ibb.co/nmtk70r/Whats-App-removebg-preview.png" alt="" />
       </div>
     </div>
   );

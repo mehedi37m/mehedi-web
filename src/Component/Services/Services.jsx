@@ -33,7 +33,7 @@ const Services = () => {
     //   animate="animate"
     //   whileInView="animate"
      ref={ref}
-     animate={isInView && "animate"}
+     animate={ "animate"}
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
@@ -44,7 +44,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/public/people.webp" alt="" />
+          <img src="https://i.ibb.co/dL1B3wM/people.webp" alt="" />
           <h1>
             <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
           </h1>

@@ -13,7 +13,8 @@ import Home from "../Component/Home/Home/Home";
         {
           path:"/",
           element:<Home></Home>
-        }
+        },
+        
       ]
     },
   ]);

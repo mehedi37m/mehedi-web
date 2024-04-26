@@ -13,10 +13,10 @@ const Navbar = () => {
             {/* sidebar */}
             <Sidebar></Sidebar>
             <div className='wrapper'>
-                <motion.span initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}}>Lama Dev</motion.span>
+                <motion.span initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}}>M..M Dev</motion.span>
                 <div className="social">
-                    <a href="#"> <img src={fb} alt="" /></a>
-                    <a href="#"> <img src={ins} alt="" /></a>
+                    <a href="https://www.facebook.com/bindaas.mehedi.5?mibextid=ZbWKwL"> <img src={fb} alt="" /></a>
+                    <a href="https://www.instagram.com/bindaasmehedi?igsh=MWFrbzQ4NmozYXJ6"> <img src={ins} alt="" /></a>
                     <a href="#"> <img src={you} alt="" /></a>
                     <a href="#"> <img src={"./dribbble.png"} alt="" /></a>
                     
