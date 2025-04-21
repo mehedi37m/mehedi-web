@@ -2,6 +2,7 @@ import { useRef } from "react";
 import "./Services.scss";
 import { motion, useInView } from "framer-motion";
 import SplineScene from "../Hero/Spline";
+import NewSection from "../NewSection/NewSection";
 
 const variants = {
   initial: {
@@ -65,6 +66,7 @@ const Services = () => {
           
           <p className="spline">
             <SplineScene></SplineScene>
+            {/* <NewSection></NewSection> */}
           </p>
           
         </motion.div>

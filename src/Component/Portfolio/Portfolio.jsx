@@ -48,10 +48,10 @@ const Single = ({ item }) => {
     <section >
       <div className="container ">
         <div className="wrapper">
-          <div className="imageContainer">
+          <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer ">
+          <motion.div className="textContainer " style={{ y: y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <Link to={`${item.link}`}><button>See Demo</button></Link>
@@ -66,7 +66,7 @@ const Portfolio = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({
-    target: ref,
+    // target: ref,
     offset: ["end end", "start start"],
   });
 
