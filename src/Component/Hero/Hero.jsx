@@ -2,6 +2,8 @@ import "./Hero.scss";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
+
+
 const textVariants = {
   initial: {
     x: -500,
@@ -59,9 +61,9 @@ const Hero = () => {
               cursor={false}
             />
           </motion.h2>
-          <motion.div variants={textVariants} className="buttons">
+          <motion.div variants={textVariants} className=" buttons">
             <motion.button variants={textVariants}>
-              See the Latest Works
+              See the Latest Works 
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
@@ -77,6 +79,7 @@ const Hero = () => {
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate" >Love Programming</motion.div>
 
       <div className="imageContainer">
+        
         <img src="https://i.ibb.co/nmtk70r/Whats-App-removebg-preview.png" alt="" />
       </div>
     </div>

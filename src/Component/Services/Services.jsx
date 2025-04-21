@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./Services.scss";
 import { motion, useInView } from "framer-motion";
+import SplineScene from "../Hero/Spline";
 
 const variants = {
   initial: {
@@ -61,11 +62,19 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          
+          <p className="spline">
+            <SplineScene></SplineScene>
+          </p>
+          
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>React js</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            nobis velit similique facilis veritatis est eligendi, obcaecati quae
-            necessitatibus consequuntur?
+          React (also known as React.js or ReactJS) is a JavaScript library used for building user interfaces, particularly for single-page applications where interactivity and dynamic updates are crucial.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,11 +82,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Node js</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            nobis velit similique facilis veritatis est eligendi, obcaecati quae
-            necessitatibus consequuntur?
+          Node.js is a cross-platform, open-source JavaScript runtime environment that executes JavaScript code outside a web browser
           </p>
           <button>Go</button>
         </motion.div>
@@ -85,23 +92,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Mongoose</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            nobis velit similique facilis veritatis est eligendi, obcaecati quae
-            necessitatibus consequuntur?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            nobis velit similique facilis veritatis est eligendi, obcaecati quae
-            necessitatibus consequuntur?
+          "Mongoose" can refer to several different things, including a type of animal, a software library
           </p>
           <button>Go</button>
         </motion.div>

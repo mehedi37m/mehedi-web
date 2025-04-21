@@ -117,11 +117,18 @@
           }
 
         .box{
+          // height: 00px;
             padding: 50px;
-            border: 0.5px solid gray;
+            // border: 0.5px solid gray;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            .spline{
+              width: 600px;
+              height: 100px;
+              
+            }
 
             @include mobile{
               border: none;
