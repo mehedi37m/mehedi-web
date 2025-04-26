@@ -56,7 +56,11 @@ const Hero = () => {
           {/* <h2>Web Developer and MERN Developer</h2> */}
           <motion.h2 variants={textVariants}>
             <TypeAnimation
-              sequence={["Web Developer and MERN Developer", 600]}
+              sequence={["Web Developer", 600,
+              "MERN Developer", 600,
+              "Nextjs Developer", 600,
+              "Nodejs Developer", 600,
+              ]}
               repeat={Infinity}
               cursor={false}
             />
