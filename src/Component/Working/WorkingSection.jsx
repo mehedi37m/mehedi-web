@@ -1,16 +1,18 @@
 import "./Working.css";
-import f4 from "./images/Rectangle 4.png"
-import f5 from "./images/Rectangle 5.png"
-import f6 from "./images/Rectangle 6.png"
-import f7 from "./images/Rectangle 7.png"
-import f55 from "./images/Rectangle 55.png"
-import f66 from "./images/Rectangle 66.png"
-import f67 from "./images/Rectangle 67.png"
-import f78 from "./images/Rectangle 78.png"
+import f4 from "../../assets/react.jpg"
+import f5 from "../../assets/tailwind-css.jpg"
+import f6 from "../../assets/node.png"
+import f7 from "../../assets/mongoosse.png"
+import f55 from "../../assets/mongodb.png"
+import f66 from "../../assets/javascript.png"
+import f67 from "../../assets/HTML5-and-CSS3.png"
+import f78 from "../../assets/firebase.png"
+import f79 from "../../assets/express.jpeg"
+import f80 from "../../assets/email.png"
 
 const WorkingSection = () => {
     return (
-        <div>
+        <div className="" style={{"padding-top": 50}}>
             <div className="banner">
                 <div className="slider" style={{ "--quantity": 10 }}>
                     
@@ -33,7 +35,7 @@ const WorkingSection = () => {
                         <img src={f67} alt="" />
                     </div>
                     <div className="item" style={{ "--position": 7 }}>
-                        <img src={f7} alt="" />
+                        <img src={f79} alt="" />
                     </div>
                     <div className="item" style={{ "--position": 8 }}>
                         <img src={f66} alt="" />
@@ -42,16 +44,16 @@ const WorkingSection = () => {
                         <img src={f78} alt="" />
                     </div>
                     <div className="item" style={{ "--position": 10 }}>
-                        <img src={f55} alt="" />
+                        <img src={f80} alt="" />
                     </div>
 
                 </div>
                 <div className="content">
-                    <h1 data-content="CSS ONLY">CSS ONLY</h1>
+                    <h1 data-content=" EveryOne.">EveryOne.</h1>
                     <div className="author">
-                        <h2>LUN DEV</h2>
-                        <p><b>Web Design</b></p>
-                        <p>Subscribe to the channel to watch</p>
+                        <h2>WEB DEV</h2>
+                        <p><b>working....</b></p>
+                        <p>I am nothing without Allah</p>
                     </div>
                     <div className="model"></div>
                 </div>
